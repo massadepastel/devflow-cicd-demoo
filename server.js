@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 // Rota principal: responde com texto simples para verificarmos nos testes
 app.get('/', (req, res) => {
-  res.send('Hello CI/CD V2!');
+  res.send('Hello CI/CD!');
 });
 
 // Inicia o servidor na porta definida
